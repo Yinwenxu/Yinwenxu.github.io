@@ -21,18 +21,18 @@
     
     
     <meta name="keywords" content="操作指南,自己看">
-    <meta name="description" content="基础指令本地运行hexo ghexo s或者 直接 hexo g -d 同步git仓库hexo d -g 发表文章    layout: 页面布局（配合主题文档使用）   title: 文章名称   date: 文章日期   comments: 文章是否开启评论   photos: 文章封面图（仅部分主题支持）   tags:   文章标签一 文章标签二categories: 文章分类descri">
+    <meta name="description" content="基础指令本地运行hexo ghexo s 同步git仓库hexo d -g 发表文章 --- layout: 页面布局（配合主题文档使用） title: 文章名称 date: 文章日期 comments: 文章是否开启评论 photos: 文章封面图（仅部分主题支持） tags:    - 文章标签一   - 文章标签二 categories: 文章分类 description: 文章描述，即要在">
 <meta name="keywords" content="操作指南,自己看">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo操作指南-写给自己看的">
 <meta property="og:url" content="http://yinwenxu.top/2019/09/21/Hexo操作指南/index.html">
 <meta property="og:site_name" content="旭の博客">
-<meta property="og:description" content="基础指令本地运行hexo ghexo s或者 直接 hexo g -d 同步git仓库hexo d -g 发表文章    layout: 页面布局（配合主题文档使用）   title: 文章名称   date: 文章日期   comments: 文章是否开启评论   photos: 文章封面图（仅部分主题支持）   tags:   文章标签一 文章标签二categories: 文章分类descri">
+<meta property="og:description" content="基础指令本地运行hexo ghexo s 同步git仓库hexo d -g 发表文章 --- layout: 页面布局（配合主题文档使用） title: 文章名称 date: 文章日期 comments: 文章是否开启评论 photos: 文章封面图（仅部分主题支持） tags:    - 文章标签一   - 文章标签二 categories: 文章分类 description: 文章描述，即要在">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-21T08:12:10.735Z">
+<meta property="og:updated_time" content="2019-09-21T08:19:09.669Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo操作指南-写给自己看的">
-<meta name="twitter:description" content="基础指令本地运行hexo ghexo s或者 直接 hexo g -d 同步git仓库hexo d -g 发表文章    layout: 页面布局（配合主题文档使用）   title: 文章名称   date: 文章日期   comments: 文章是否开启评论   photos: 文章封面图（仅部分主题支持）   tags:   文章标签一 文章标签二categories: 文章分类descri">
+<meta name="twitter:description" content="基础指令本地运行hexo ghexo s 同步git仓库hexo d -g 发表文章 --- layout: 页面布局（配合主题文档使用） title: 文章名称 date: 文章日期 comments: 文章是否开启评论 photos: 文章封面图（仅部分主题支持） tags:    - 文章标签一   - 文章标签二 categories: 文章分类 description: 文章描述，即要在">
     
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
@@ -75,7 +75,14 @@
             <li class="waves-block waves-effect">
               <a href="/archives"  >
                 <i class="icon icon-lg icon-archives"></i>
-                Archives
+                文章
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
               </a>
             </li>
         
@@ -88,15 +95,8 @@
         
             <li class="waves-block waves-effect">
               <a href="https://yinwenxu.top/" target="_blank" >
-                <i class="icon icon-lg icon-weibo"></i>
-                Weibo
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="/tags"  >
-                <i class="icon icon-lg icon-tags"></i>
-                Tags
+                <i class="icon icon-lg icon-address-book"></i>
+                个人简历
               </a>
             </li>
         
@@ -156,7 +156,7 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
             <h4>TOC</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#基础指令"><span class="post-toc-number">1.</span> <span class="post-toc-text">基础指令</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#本地运行"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">本地运行</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#同步git仓库"><span class="post-toc-number">1.0.2.</span> <span class="post-toc-text">同步git仓库</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#发表文章"><span class="post-toc-number">2.</span> <span class="post-toc-text">发表文章</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#基础指令"><span class="post-toc-number">1.</span> <span class="post-toc-text">基础指令</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#本地运行"><span class="post-toc-number">1.0.1.</span> <span class="post-toc-text">本地运行</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#同步git仓库"><span class="post-toc-number">1.0.2.</span> <span class="post-toc-text">同步git仓库</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#发表文章"><span class="post-toc-number">2.</span> <span class="post-toc-text">发表文章</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Markdown"><span class="post-toc-number">3.</span> <span class="post-toc-text">Markdown</span></a></li></ol>
         </nav>
     </aside>
 
@@ -180,19 +180,32 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <h1 id="基础指令"><a href="#基础指令" class="headerlink" title="基础指令"></a>基础指令</h1><h3 id="本地运行"><a href="#本地运行" class="headerlink" title="本地运行"></a>本地运行</h3><p>hexo g<br>hexo s<br>或者 直接 hexo g -d</p>
+            <h1 id="基础指令"><a href="#基础指令" class="headerlink" title="基础指令"></a>基础指令</h1><h3 id="本地运行"><a href="#本地运行" class="headerlink" title="本地运行"></a>本地运行</h3><p>hexo g<br>hexo s</p>
 <h3 id="同步git仓库"><a href="#同步git仓库" class="headerlink" title="同步git仓库"></a>同步git仓库</h3><p>hexo d -g</p>
-<h1 id="发表文章"><a href="#发表文章" class="headerlink" title="发表文章"></a>发表文章</h1><hr>
-<p>   layout: 页面布局（配合主题文档使用）<br>   title: 文章名称<br>   date: 文章日期<br>   comments: 文章是否开启评论<br>   photos: 文章封面图（仅部分主题支持）<br>   tags: </p>
-<ul>
-<li>文章标签一</li>
-<li>文章标签二<br>categories: 文章分类<br>description: 文章描述，即要在首页显示的摘要（仅部分主题支持）</li>
-</ul>
-<hr>
-<p>这里是摘要</p>
+<h1 id="发表文章"><a href="#发表文章" class="headerlink" title="发表文章"></a>发表文章</h1><pre>
+---
+layout: 页面布局（配合主题文档使用）
+title: 文章名称
+date: 文章日期
+comments: 文章是否开启评论
+photos: 文章封面图（仅部分主题支持）
+tags: 
+  - 文章标签一
+  - 文章标签二
+categories: 文章分类
+description: 文章描述，即要在首页显示的摘要（仅部分主题支持）
+---
+
+这里是摘要
+
 <a id="more"></a>
 
-<p>这里是正文</p>
+这里是正文
+
+注意：description 和 <!-- more --> 方式显示摘要二选一即可，部分主题不支持description，每个配置英文冒号后面要空一格，不同主题配置有所差异，具体要参考主题文档
+
+</pre>
+<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><p>我太懒了 <a href="https://segmentfault.com/markdown#articleHeader4" target="_blank" rel="noopener">Markdown</a></p>
 
         </div>
 
@@ -201,7 +214,7 @@
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2019-09-21T08:12:10.735Z" itemprop="dateUpdated">2019-09-21 16:12:10</time>
+    最后更新时间：<time datetime="2019-09-21T08:19:09.669Z" itemprop="dateUpdated">2019-09-21 16:19:09</time>
 </span><br>
 
 
@@ -247,10 +260,12 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yinwenxu.top/2019/09/21/Hexo操作指南/&title=《Hexo操作指南-写给自己看的》 — 旭の博客&source=基础指令本地运行hexo ghexo s或者 直接 hexo g -d
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yinwenxu.top/2019/09/21/Hexo操作指南/&title=《Hexo操作指南-写给自己看的》 — 旭の博客&source=基础指令本地运行hexo ghexo s
 同步git仓库hexo d -g
 发表文章
-   layout: 页面布局（配合主..." data-title=" QQ">
+---
+layout: 页面布局（配合主题文档使用）
+title: ..." data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -424,10 +439,12 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yinwenxu.top/2019/09/21/Hexo操作指南/&title=《Hexo操作指南-写给自己看的》 — 旭の博客&source=基础指令本地运行hexo ghexo s或者 直接 hexo g -d
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yinwenxu.top/2019/09/21/Hexo操作指南/&title=《Hexo操作指南-写给自己看的》 — 旭の博客&source=基础指令本地运行hexo ghexo s
 同步git仓库hexo d -g
 发表文章
-   layout: 页面布局（配合主..." data-title=" QQ">
+---
+layout: 页面布局（配合主题文档使用）
+title: ..." data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>

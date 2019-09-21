@@ -70,7 +70,14 @@
             <li class="waves-block waves-effect">
               <a href="/archives"  >
                 <i class="icon icon-lg icon-archives"></i>
-                Archives
+                文章
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                标签
               </a>
             </li>
         
@@ -83,15 +90,8 @@
         
             <li class="waves-block waves-effect">
               <a href="https://yinwenxu.top/" target="_blank" >
-                <i class="icon icon-lg icon-weibo"></i>
-                Weibo
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="/tags"  >
-                <i class="icon icon-lg icon-tags"></i>
-                Tags
+                <i class="icon icon-lg icon-address-book"></i>
+                个人简历
               </a>
             </li>
         
@@ -172,14 +172,21 @@
     <div class="post-content" id="post-content" itemprop="postContent">
 
     
-        基础指令本地运行hexo ghexo s或者 直接 hexo g -d
+        基础指令本地运行hexo ghexo s
 同步git仓库hexo d -g
 发表文章
-   layout: 页面布局（配合主题文档使用）   title: 文章名称   date: 文章日期   comments: 文章是否开启评论   photos: 文章封面图（仅部分主题支持）   tags: 
-
-文章标签一
-文章标签二categories: 文章分类description: 文章描述，即要在首页显示的摘要（仅部分主题支持）
-
+---
+layout: 页面布局（配合主题文档使用）
+title: 文章名称
+date: 文章日期
+comments: 文章是否开启评论
+photos: 文章封面图（仅部分主题支持）
+tags: 
+  - 文章标签一
+  - 文章标签二
+categories: 文章分类
+description: 文章描述，即要在首页显示的摘要（仅部分主题支持）
+---
 
 这里是摘要
     
@@ -228,9 +235,7 @@
     
         记录我的第一篇文章嘻嘻公司的网也是一言难尽一下午了可算是搭建好了我还不怎么会用     Markdown就先这样吧
 
-我用的主题好像还是个郑州的大兄弟写的 hexo-theme-indigoHexo+git 搭建博客系统 自己的博客评论系统 Leancloud
-
-
+我用的主题好像还是个郑州的大兄弟写的...
     
 
         <a href="/2019/09/20/2019.09.20Hexo博客初创建/" class="post-more waves-effect waves-button">
