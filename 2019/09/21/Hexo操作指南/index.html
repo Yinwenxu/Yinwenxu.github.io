@@ -34,6 +34,8 @@
 <meta name="twitter:title" content="Hexo操作指南-写给自己看的">
 <meta name="twitter:description" content="基础指令本地运行hexo ghexo s 同步git仓库hexo d -g 发表文章 --- layout: 页面布局（配合主题文档使用） title: 文章名称 date: 文章日期 comments: 文章是否开启评论 photos: 文章封面图（仅部分主题支持） tags:    - 文章标签一   - 文章标签二 categories: 文章分类 description: 文章描述，即要在">
     
+        <link rel="alternate" type="application/atom+xml" title="旭の博客" href="/atom.xml">
+    
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
     <script>window.lazyScripts=[]</script>
@@ -83,6 +85,13 @@
               <a href="/tags"  >
                 <i class="icon icon-lg icon-tags"></i>
                 标签
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                分类
               </a>
             </li>
         
@@ -407,6 +416,8 @@ title: ..." data-title=" QQ">
 
         <p>
             
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
             <span>博客内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
         </p>
     </div>
@@ -470,7 +481,7 @@ title: ..." data-title=" QQ">
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://yinwenxu.top/2019/09/21/Hexo操作指南/" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACI0lEQVR42u3aO27DMBAFwNz/0kqbFLLfW8YBRA4rI3AkjovF/r6+4nP9OLO/331OnvZnBwMD47GM6+WZMe6u/vo5yX/dvhEDA+MARnKJu+/n110J02/ujIGBgRFfPcnZXr8dAwMD49OM17w2AcXAwMBoi9iVltwscH+kFsfAwHggI++6///nj8w3MDAwHsW4yjNrw+XJ3zU6GBgYezNmaV/bPlsJ3EUaioGBcSQjuW4bLvNyNxk5FF1DDAyMrRkrsHYk2Q4JioCLgYHxWEa7vLVS3LZD0CTUYmBgnMBILj1b/MoL3XZc+uabGBgYBzDaZG6GnFWgUUGLgYFxDGPWkmvL3fwHLZ6DgYGxHWOlTM1fmZejsyCOgYFxMqMtIPNm2SxZfLMQhoGBcQxjlt7lYXd9hHA7g8XAwNiakRSWsyZ+Ho5nixq/UkMMDIxNGe3Sw9L22Sj1LNp8GBgYmzJma1ht6pb8ELOmXl09Y2BgPJCRv7hdkmhbcvmYEwMD40xG/tA8aOaNudn44U3vEAMD4xhGmwjOwuvK8AADA+M0Rhsc89J3JfgWuR8GBsamjKs8n1gOy5c8bptuGBgYWzPy0zbFkjHnetGLgYFxDqMNsu0i1yx9TO4QZY4YGBgbMWaB72+pbRmMgYGB0bbmk5K1HY7W2SsGBgZG2fSfla/DZTIMDIwDGEkR2/69DcR58w4DA+M0xlLpOCpK2zRxdisMDIwtGN+hcGqY4Pul+QAAAABJRU5ErkJggg==" alt="微信分享二维码">
 </div>
 
 
