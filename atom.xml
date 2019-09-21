@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yinwenxu.top/"/>
-  <updated>2019-09-21T08:19:09.669Z</updated>
+  <updated>2019-09-21T08:55:06.277Z</updated>
   <id>http://yinwenxu.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yinwenxu.top/2019/09/21/Hexo%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/"/>
     <id>http://yinwenxu.top/2019/09/21/Hexo操作指南/</id>
     <published>2019-09-21T08:03:04.429Z</published>
-    <updated>2019-09-21T08:19:09.669Z</updated>
+    <updated>2019-09-21T08:55:06.277Z</updated>
     
     <content type="html"><![CDATA[<h1 id="基础指令"><a href="#基础指令" class="headerlink" title="基础指令"></a>基础指令</h1><h3 id="本地运行"><a href="#本地运行" class="headerlink" title="本地运行"></a>本地运行</h3><p>hexo g<br>hexo s</p><h3 id="同步git仓库"><a href="#同步git仓库" class="headerlink" title="同步git仓库"></a>同步git仓库</h3><p>hexo d -g</p><h1 id="发表文章"><a href="#发表文章" class="headerlink" title="发表文章"></a>发表文章</h1><pre>---layout: 页面布局（配合主题文档使用）title: 文章名称date: 文章日期comments: 文章是否开启评论photos: 文章封面图（仅部分主题支持）tags:   - 文章标签一  - 文章标签二categories: 文章分类description: 文章描述，即要在首页显示的摘要（仅部分主题支持）---这里是摘要<a id="more"></a>这里是正文注意：description 和 <!-- more --> 方式显示摘要二选一即可，部分主题不支持description，每个配置英文冒号后面要空一格，不同主题配置有所差异，具体要参考主题文档</pre><h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><p>我太懒了 <a href="https://segmentfault.com/markdown#articleHeader4" target="_blank" rel="noopener">Markdown</a></p>]]></content>
     
@@ -48,6 +48,8 @@ description: 文章描述，即要在首页显示的摘要（仅部分主题支�
     </summary>
     
     
+      <category term="操作" scheme="http://yinwenxu.top/categories/%E6%93%8D%E4%BD%9C/"/>
+    
     
       <category term="操作指南" scheme="http://yinwenxu.top/tags/%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/"/>
     
@@ -60,7 +62,7 @@ description: 文章描述，即要在首页显示的摘要（仅部分主题支�
     <link href="http://yinwenxu.top/2019/09/20/2019.09.20Hexo%E5%8D%9A%E5%AE%A2%E5%88%9D%E5%88%9B%E5%BB%BA/"/>
     <id>http://yinwenxu.top/2019/09/20/2019.09.20Hexo博客初创建/</id>
     <published>2019-09-20T07:50:07.505Z</published>
-    <updated>2019-09-21T08:43:39.821Z</updated>
+    <updated>2019-09-21T08:55:02.476Z</updated>
     
     <content type="html"><![CDATA[<h3 id="记录我的第一篇文章"><a href="#记录我的第一篇文章" class="headerlink" title="记录我的第一篇文章"></a>记录我的第一篇文章</h3><p>嘻嘻<br>公司的网也是一言难尽<br>一下午了可算是搭建好了<br>我还不怎么会用     <a href="https://segmentfault.com/markdown#articleHeader4" target="_blank" rel="noopener">Markdown</a><br>就先这样吧</p><blockquote><p>我用的主题好像还是个郑州的大兄弟写的 <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank" rel="noopener">hexo-theme-indigo</a><br>Hexo+git 搭建博客系统 <a href="https://blog.csdn.net/qq_36759224/article/details/82121420" target="_blank" rel="noopener">自己的博客</a><br>评论系统 <a href="https://www.cnblogs.com/Timesi/p/9556236.html" target="_blank" rel="noopener">Leancloud</a></p></blockquote>]]></content>
     
@@ -73,6 +75,8 @@ description: 文章描述，即要在首页显示的摘要（仅部分主题支�
     
     </summary>
     
+    
+      <category term="杂七杂八" scheme="http://yinwenxu.top/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
     
     
       <category term="摸鱼" scheme="http://yinwenxu.top/tags/%E6%91%B8%E9%B1%BC/"/>
